@@ -5,16 +5,19 @@
 using namespace std;
 int main()
 {
+	//declare variables
 	char operation;
 	int num1;
 	int num2;
 	double result;
+	//get user input
 	cout << "What arithmetic operation would you like to perform? \nPlease enter the symbol (+,-,*,/)\n";
 	cin >> operation;
 	cout << "Please enter the first number: \n";
 	cin >> num1;
 	cout << "Please enter the second number: \n";
 	cin >> num2;
+	//perform calculation based on user input
 	switch (operation)
 	{
 	case '+':
